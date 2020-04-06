@@ -1,0 +1,39 @@
+CLASS i simulator/Populaatio
+	FIELD a x I
+	FIELD a sijainti J
+	FIELD a ympäristö La;
+	FIELD a abstraktitKielitiedot Lf;
+	FIELD a taso Lj;
+	FIELD a POPULAATIOT Ljava/util/List;
+	FIELD a paritettu Z
+	FIELD b y I
+	FIELD b ominaisuudet Lf;
+	FIELD b POPULAATIOPARIT Ljava/util/List;
+	FIELD b asettunut Z
+	FIELD c koko I
+	FIELD c EPÄPARITETTAVAT_POPULAATIOT Ljava/util/List;
+	FIELD d POISTETTAVAT_POPULAATIOT Ljava/util/List;
+	METHOD <init> (Li;D)V
+		ARG 1 other
+		ARG 2 scale
+	METHOD <init> (Ljava/util/Random;)V
+		ARG 1 satunnainen
+	METHOD a haeSuurennettuVahvuus ()D
+	METHOD a haeSuurennettuÄlykkyysJaVahvuus ()I
+	METHOD a haePopulaatiot ()[Li;
+	METHOD a pitäisiköRakenneKääntää (D)Z
+		ARG 0 x
+	METHOD a pakkaaSijainti (II)J
+		ARG 0 x
+		ARG 1 y
+	METHOD a siirrä (II)V
+		ARG 1 x
+		ARG 2 y
+	METHOD a luoPari (Li;Li;)V
+		ARG 0 ensimmäinen
+		ARG 1 toinen
+	METHOD a päivitä (Ljava/util/Random;)V
+		ARG 0 satunnainen
+	METHOD b asetaSijainti (II)V
+		ARG 1 x
+		ARG 2 y

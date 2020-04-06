@@ -1,0 +1,145 @@
+# Copyright 2020 Valoeghese ALL RIGHTS RESERVED FOR INTERNAL REFERENCE PURPOSES
+simulator.GraphicsThreadedApplication -> simulator.a:
+    simulator.GraphicsThreadedApplication$Settings settings -> a
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+    void start(javafx.stage.Stage) -> start
+    void start(javafx.scene.canvas.GraphicsContext,int,int) -> a
+    void onClose(javafx.stage.WindowEvent) -> a
+    void onClick(javafx.scene.input.MouseEvent) -> a
+    void newUpdateThread$574944f(java.lang.Runnable) -> a
+    void lambda$2(java.lang.Runnable,long) -> a
+simulator.GraphicsThreadedApplication$Settings -> simulator.b:
+    int width -> a
+    int height -> b
+    void <init>() -> <init>
+    double clampMap$3fc189a9(double,double,double) -> a
+simulator.Simulator -> simulator.Simulator:
+    int WORLD_DIAMETER -> a
+    javafx.scene.image.PixelWriter pwr -> a
+    int width -> b
+    int height -> c
+    java.util.Random RAND -> a
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+    void main(java.lang.String[]) -> main
+    void start(javafx.scene.canvas.GraphicsContext,int,int) -> a
+    void onClose(javafx.stage.WindowEvent) -> a
+    void onClick(javafx.scene.input.MouseEvent) -> a
+    void update() -> a
+    void draw() -> b
+simulator.environment.Environment -> a:
+    java.lang.String name -> a
+    simulator.maths.Vec2d climate -> a
+    simulator.maths.Vec3 statsEffect -> a
+    boolean settleable -> a
+    simulator.environment.Environment GRASSLANDS -> a
+    simulator.environment.Environment FOREST -> b
+    simulator.environment.Environment TROPICAL_RAINFOREST -> c
+    simulator.environment.Environment TROPICAL_GRASSLANDS -> d
+    simulator.environment.Environment DESERT -> e
+    simulator.environment.Environment ICE -> f
+    void <clinit>() -> <clinit>
+    void <init>(java.lang.String,simulator.maths.Vec2d,simulator.maths.Vec3,boolean) -> <init>
+    simulator.maths.Vec2d getClimate() -> a
+    boolean isSettleable() -> a
+    void modify(simulator.maths.Vec3M) -> a
+    java.lang.String toString() -> toString
+simulator.maths.UnaryTypePair -> b:
+    java.lang.Object a -> a
+    java.lang.Object b -> b
+    void <init>(java.lang.Object,java.lang.Object) -> <init>
+simulator.maths.Vec2d -> c:
+    double x -> a
+    double y -> b
+    void <init>(double,double) -> <init>
+    double getX() -> a
+    double getY() -> b
+simulator.maths.Vec2i -> d:
+    int x -> a
+    int y -> b
+    simulator.maths.Vec2i ZERO -> a
+    simulator.maths.Vec2i UP -> b
+    simulator.maths.Vec2i DOWN -> c
+    simulator.maths.Vec2i LEFT -> d
+    simulator.maths.Vec2i RIGHT -> e
+    void <clinit>() -> <clinit>
+    void <init>(int,int) -> <init>
+    simulator.maths.Vec2i mirror() -> a
+    int getX() -> a
+    int getY() -> b
+simulator.maths.Vec3 -> e:
+    double x -> a
+    double y -> b
+    double z -> c
+    void <init>(double,double,double) -> <init>
+    double distanceTo(simulator.maths.Vec3) -> a
+    double getX() -> a
+    double getY() -> b
+    double getZ() -> c
+simulator.maths.Vec3M -> f:
+    void <init>(double,double,double) -> <init>
+    void increase(double,double,double) -> a
+    void setX(double) -> a
+    void setY(double) -> b
+    void setZ(double) -> c
+    void mixProportionally(int,int,simulator.maths.Vec3M) -> a
+    simulator.maths.Vec3M clone() -> a
+    java.lang.Object clone() -> clone
+simulator.maths.noise.OpenSimplexNoise -> g:
+    double xOffset -> a
+    double yOffset -> b
+    void <init>(java.util.Random) -> <init>
+    double sample(double,double) -> a
+simulator.maths.noise.RawOpenSimplexNoise -> h:
+    short[] perm -> a
+    short[] permGradIndex3D -> b
+    byte[] gradients2D -> a
+    byte[] gradients3D -> b
+    void <clinit>() -> <clinit>
+    void <init>(long) -> <init>
+    double sample(double,double) -> a
+    double extrapolate(int,int,double,double) -> a
+    int fastFloor(double) -> a
+simulator.population.Population -> i:
+    simulator.maths.Vec3M language -> a
+    simulator.maths.Vec3M stats -> b
+    int x -> a
+    int y -> b
+    long position -> a
+    int size -> c
+    boolean toAlter -> a
+    boolean settled -> b
+    simulator.environment.Environment settledIn -> a
+    java.util.List POPULATIONS -> a
+    simulator.population.World world -> a
+    java.util.List TO_MERGE -> b
+    java.util.List TO_SPLIT -> c
+    java.util.List TO_DIE -> d
+    void <clinit>() -> <clinit>
+    void <init>(java.util.Random) -> <init>
+    void <init>(simulator.population.Population,double) -> <init>
+    void setPosition(int,int) -> a
+    void positionInfo(int,int) -> b
+    int independence() -> a
+    double dominance() -> a
+    java.lang.String toString() -> toString
+    void tickPopulations(java.util.Random) -> a
+    void prepareMerge(simulator.population.Population,simulator.population.Population) -> a
+    boolean differentRace(double) -> a
+    long hashCoord(int,int) -> a
+    simulator.population.Population[] getAllPopulations() -> a
+    void lambda$0(java.util.Random,simulator.population.Population) -> a
+    void lambda$1(simulator.maths.UnaryTypePair) -> a
+    void lambda$2(java.util.Random,simulator.population.Population) -> b
+    void lambda$3(simulator.population.Population) -> a
+simulator.population.World -> j:
+    java.util.Map POPULATIONS -> a
+    java.util.Map ENVIRONMENTS -> b
+    void <clinit>() -> <clinit>
+    void <init>(java.util.Random,int) -> <init>
+    void addPopulation(long,simulator.population.Population) -> a
+    void removePopulation(simulator.population.Population) -> a
+    java.util.List getPopulations(long) -> a
+    simulator.environment.Environment getEnvironment(long) -> a
+    java.util.List lambda$0(java.lang.Long) -> a

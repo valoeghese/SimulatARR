@@ -1,0 +1,17 @@
+CLASS simulator/a main/AbstractApplication
+	FIELD a settings Lsimulator/b;
+	METHOD a startDaemonThreadWithRunnable (Ljava/lang/Runnable;)V
+		ARG 0 task
+	METHOD a startLoop (Ljava/lang/Runnable;J)V
+		ARG 0 loopTask
+		ARG 1 delay
+	METHOD a render (Ljavafx/scene/canvas/GraphicsContext;II)V
+		ARG 1 context
+		ARG 2 width
+		ARG 3 height
+	METHOD a onMouseEvent (Ljavafx/scene/input/MouseEvent;)V
+		ARG 1 event
+	METHOD a printFinal (Ljavafx/stage/WindowEvent;)V
+		ARG 1 event
+	METHOD start start (Ljavafx/stage/Stage;)V
+		ARG 1 stage

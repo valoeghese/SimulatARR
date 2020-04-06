@@ -1,0 +1,20 @@
+CLASS a sim/Biome
+	FIELD a GRASSLANDS La;
+	FIELD a twoValues Lc;
+	FIELD a threeValues Le;
+	FIELD a name Ljava/lang/String;
+	FIELD a canBeSettled Z
+	FIELD b FOREST La;
+	FIELD c TROPICAL_RAINFOREST La;
+	FIELD d TROPICAL_GRASSLANDS La;
+	FIELD e DESERT La;
+	FIELD f ICE La;
+	METHOD <init> (Ljava/lang/String;Lc;Le;Z)V
+		ARG 1 name
+		ARG 2 twoValues
+		ARG 3 threeValues
+		ARG 4 canBeSettled
+	METHOD a twoValues ()Lc;
+	METHOD a canBeSettled ()Z
+	METHOD a appendThreeValues (Lf;)V
+		ARG 1 value

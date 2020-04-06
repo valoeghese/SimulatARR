@@ -1,0 +1,14 @@
+CLASS d simulator/util/Transformer
+	FIELD a x I
+	FIELD a CENTER Ld;
+	FIELD b z I
+	FIELD b E Ld;
+	FIELD c W Ld;
+	FIELD d S Ld;
+	FIELD e N Ld;
+	METHOD <init> (II)V
+		ARG 1 x
+		ARG 2 z
+	METHOD a getX ()I
+	METHOD a negatedTransformer ()Ld;
+	METHOD b getZ ()I

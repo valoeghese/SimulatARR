@@ -1,0 +1,16 @@
+CLASS f simulator/MuuttuvatPopulaationOminaisuudet
+	METHOD a kloonaa ()Lf;
+	METHOD a asetaVahvuus (D)V
+		ARG 1 vahvuus
+	METHOD a lisää (DDD)V
+		ARG 1 vahvuus
+		ARG 3 rakenne
+		ARG 5 älykkyys
+	METHOD a sekoita (IILf;)V
+		ARG 1 omaPaino
+		ARG 2 toisenPaino
+		ARG 3 toinen
+	METHOD b asetaRakenne (D)V
+		ARG 1 rakenne
+	METHOD c asetaÄlykkyys (D)V
+		ARG 1 älykkyys

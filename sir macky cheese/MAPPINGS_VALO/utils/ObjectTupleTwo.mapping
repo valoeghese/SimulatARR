@@ -1,0 +1,6 @@
+CLASS b utils/ObjectTupleTwo
+	FIELD a first Ljava/lang/Object;
+	FIELD b second Ljava/lang/Object;
+	METHOD <init> (Ljava/lang/Object;Ljava/lang/Object;)V
+		ARG 1 first
+		ARG 2 second

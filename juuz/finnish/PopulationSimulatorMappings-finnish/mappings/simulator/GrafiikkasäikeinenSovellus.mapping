@@ -1,0 +1,17 @@
+CLASS simulator/a simulator/GrafiikkasäikeinenSovellus
+	FIELD a koko Lsimulator/b;
+	METHOD a käynnistäSilmukkasäie (Ljava/lang/Runnable;)V
+		ARG 0 tehtävä
+	METHOD a toista (Ljava/lang/Runnable;J)V
+		ARG 0 tehtävä
+		ARG 1 tauonKesto
+	METHOD a alusta (Ljavafx/scene/canvas/GraphicsContext;II)V
+		ARG 1 konteksti
+		ARG 2 leveys
+		ARG 3 korkeus
+	METHOD a hiiriPainettu (Ljavafx/scene/input/MouseEvent;)V
+		ARG 1 tapahtuma
+	METHOD a ikkunaSuljettu (Ljavafx/stage/WindowEvent;)V
+		ARG 1 tapahtuma
+	METHOD start (Ljavafx/stage/Stage;)V
+		ARG 1 näyttämö

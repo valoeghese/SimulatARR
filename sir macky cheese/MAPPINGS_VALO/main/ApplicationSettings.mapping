@@ -1,0 +1,7 @@
+CLASS simulator/b main/ApplicationSettings
+	FIELD a settingsWindowWidth I
+	FIELD b settingsWindowHeight I
+	METHOD a complexDoubleOperationUponThreeDoublesWhichForSomeReasonArentADoubleTupleThree (DDD)D
+		ARG 0 first
+		ARG 2 second
+		ARG 4 third

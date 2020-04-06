@@ -1,0 +1,10 @@
+CLASS simulator/Simulator main/Simulator
+	FIELD a cellPixelSize I
+	FIELD a classRandom Ljava/util/Random;
+	FIELD a pixelWriter Ljavafx/scene/image/PixelWriter;
+	FIELD b width I
+	FIELD c height I
+	METHOD a queueDisplay ()V
+	METHOD b display ()V
+	METHOD main ([Ljava/lang/String;)V
+		ARG 0 args

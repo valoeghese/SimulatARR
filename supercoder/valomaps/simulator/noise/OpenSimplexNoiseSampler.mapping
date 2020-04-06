@@ -1,0 +1,17 @@
+CLASS h simulator/noise/OpenSimplexNoiseSampler
+	FIELD a noisePermutations [B
+	FIELD a perm [S
+	FIELD b noisePermutation3DIndex [B
+	FIELD b permGradIndex3D [S
+	METHOD <init> (J)V
+		ARG 1 seed
+	METHOD a fastFloor (D)I
+		ARG 0 value
+	METHOD a sample2DNoise (DD)D
+		ARG 1 x
+		ARG 3 z
+	METHOD a extrapolateIntFloat (IIDD)D
+		ARG 1 x
+		ARG 2 z
+		ARG 3 value1
+		ARG 5 value2

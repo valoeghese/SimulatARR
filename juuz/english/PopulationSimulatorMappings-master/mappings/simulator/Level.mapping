@@ -1,0 +1,16 @@
+CLASS j simulator/Level
+	FIELD a POPULATIONS Ljava/util/Map;
+		COMMENT Map<Long, List<Population>>
+	FIELD b ENVIRONMENTS Ljava/util/Map;
+		COMMENT Map<Long, Environment>
+	METHOD <init> (Ljava/util/Random;I)V
+		ARG 2 size
+	METHOD a getEnvironmentAt (J)La;
+		ARG 0 position
+	METHOD a getPopulationsAt (J)Ljava/util/List;
+		ARG 0 position
+	METHOD a add (JLi;)V
+		ARG 0 position
+		ARG 2 population
+	METHOD a remove (Li;)V
+		ARG 0 population

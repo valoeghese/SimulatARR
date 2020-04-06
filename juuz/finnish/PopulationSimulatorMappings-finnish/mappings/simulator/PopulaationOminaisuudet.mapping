@@ -1,0 +1,13 @@
+CLASS e simulator/PopulaationOminaisuudet
+	FIELD a vahvuus D
+	FIELD b rakenne D
+	FIELD c älykkyys D
+	METHOD <init> (DDD)V
+		ARG 1 vahvuus
+		ARG 3 rakenne
+		ARG 5 älykkyys
+	METHOD a haeVahvuus ()D
+	METHOD a etäisyys (Le;)D
+		ARG 1 toinen
+	METHOD b haeRakenne ()D
+	METHOD c haeÄlykkyys ()D

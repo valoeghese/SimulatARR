@@ -1,0 +1,17 @@
+CLASS h utils/NoiseGenerator
+	FIELD a list3 [B
+	FIELD a list1 [S
+	FIELD b list4 [B
+	FIELD b list2 [S
+	METHOD <init> (J)V
+		ARG 1 seed
+	METHOD a toInteger (D)I
+		ARG 0 value
+	METHOD a arr (DD)D
+		ARG 1 x
+		ARG 3 y
+	METHOD a hash (IIDD)D
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 5 w

@@ -1,0 +1,8 @@
+CLASS c utils/DoubleTupleTwo
+	FIELD a first D
+	FIELD b second D
+	METHOD <init> (DD)V
+		ARG 1 first
+		ARG 3 second
+	METHOD a first ()D
+	METHOD b second ()D

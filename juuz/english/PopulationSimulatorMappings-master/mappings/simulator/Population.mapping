@@ -1,0 +1,45 @@
+CLASS i simulator/Population
+	FIELD a x I
+	FIELD a position J
+	FIELD a environment La;
+	FIELD a abstractLanguageInfo Lf;
+	FIELD a level Lj;
+	FIELD a POPULATIONS Ljava/util/List;
+		COMMENT List<Population>
+	FIELD a paired Z
+	FIELD b y I
+	FIELD b stats Lf;
+	FIELD b POPULATION_PAIRS Ljava/util/List;
+		COMMENT List<Pair(Population, Population)>
+	FIELD b settled Z
+	FIELD c size I
+	FIELD c POPULATIONS_TO_UNPAIR Ljava/util/List;
+		COMMENT List<Population>
+	FIELD d POPULATIONS_TO_REMOVE Ljava/util/List;
+		COMMENT List<Population>
+	METHOD <init> (Li;D)V
+		ARG 1 other
+		ARG 2 scale
+	METHOD <init> (Ljava/util/Random;)V
+		ARG 1 random
+	METHOD a getSizedStrength ()D
+	METHOD a getSizedIntelligenceAndStrength ()I
+	METHOD a getPopulations ()[Li;
+	METHOD a shouldInvertBuild (D)Z
+		COMMENT Checks if the build components of the {@link #stats} should be inverted
+		COMMENT based on the different of two build values.
+		ARG 0 delta
+	METHOD a packPosition (II)J
+		ARG 0 x
+		ARG 1 y
+	METHOD a move (II)V
+		ARG 1 x
+		ARG 2 y
+	METHOD a createPair (Li;Li;)V
+		ARG 0 first
+		ARG 1 second
+	METHOD a tick (Ljava/util/Random;)V
+		ARG 0 random
+	METHOD b setPosition (II)V
+		ARG 1 x
+		ARG 2 y

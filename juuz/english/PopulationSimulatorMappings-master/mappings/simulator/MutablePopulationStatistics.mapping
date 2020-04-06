@@ -1,0 +1,16 @@
+CLASS f simulator/MutablePopulationStatistics
+	METHOD a clone ()Lf;
+	METHOD a setIntelligence (D)V
+		ARG 1 intelligence
+	METHOD a add (DDD)V
+		ARG 1 intelligence
+		ARG 3 build
+		ARG 5 strength
+	METHOD a mixWith (IILf;)V
+		ARG 1 selfWeight
+		ARG 2 otherWeight
+		ARG 3 other
+	METHOD b setBuild (D)V
+		ARG 1 build
+	METHOD c setStrength (D)V
+		ARG 1 strength

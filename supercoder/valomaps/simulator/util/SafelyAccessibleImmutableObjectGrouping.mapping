@@ -1,0 +1,8 @@
+CLASS c simulator/util/SafelyAccessibleImmutableObjectGrouping
+	FIELD a o1 D
+	FIELD b o2 D
+	METHOD <init> (DD)V
+		ARG 1 o1
+		ARG 3 o2
+	METHOD a getO1 ()D
+	METHOD b getO2 ()D

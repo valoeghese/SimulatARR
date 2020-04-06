@@ -1,0 +1,13 @@
+CLASS e utils/DoubleTupleThree
+	FIELD a first D
+	FIELD b second D
+	FIELD c third D
+	METHOD <init> (DDD)V
+		ARG 1 first
+		ARG 3 second
+		ARG 5 third
+	METHOD a first ()D
+	METHOD a distance (Le;)D
+		ARG 1 anotherDoubleTupleThree
+	METHOD b second ()D
+	METHOD c third ()D

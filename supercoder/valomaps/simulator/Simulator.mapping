@@ -1,0 +1,10 @@
+CLASS simulator/Simulator
+	FIELD a radius I
+	FIELD a RANDOM Ljava/util/Random;
+	FIELD a writer Ljavafx/scene/image/PixelWriter;
+	FIELD b xSize I
+	FIELD c zSize I
+	METHOD a simulate ()V
+	METHOD b simulateAction ()V
+	METHOD main ([Ljava/lang/String;)V
+		ARG 0 arr

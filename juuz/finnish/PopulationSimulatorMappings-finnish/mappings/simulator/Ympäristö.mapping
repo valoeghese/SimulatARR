@@ -1,0 +1,20 @@
+CLASS a simulator/Ympäristö
+	FIELD a NIITTY La;
+	FIELD a ilmasto Lc;
+	FIELD a ominaisuusmuunnin Le;
+	FIELD a nimi Ljava/lang/String;
+	FIELD a ruohoinen Z
+	FIELD b METSÄ La;
+	FIELD c TROOPPINEN_SADEMETSÄ La;
+	FIELD d TROOPPINEN_NIITTY La;
+	FIELD e AAVIKKO La;
+	FIELD f JÄÄ La;
+	METHOD <init> (Ljava/lang/String;Lc;Le;Z)V
+		ARG 1 nimi
+		ARG 2 ilmasto
+		ARG 3 ominaisuusmuunnin
+		ARG 4 ruohoinen
+	METHOD a haeIlmasto ()Lc;
+	METHOD a onkoRuohoinen ()Z
+	METHOD a lisääOminaisuusvaikutukset (Lf;)V
+		ARG 1 ominaisuudet

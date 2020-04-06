@@ -1,0 +1,9 @@
+CLASS b simulator/Pari
+	COMMENT Pari(A, B)-oliossa on kaksi arvoa, joiden tyypit ovat A ja B.
+	COMMENT
+	COMMENT <p>Proguard on poistanut tyyppimuuttujat, joten A ja B ovat aina {@code Object}.
+	FIELD a ensimmäinen Ljava/lang/Object;
+	FIELD b toinen Ljava/lang/Object;
+	METHOD <init> (Ljava/lang/Object;Ljava/lang/Object;)V
+		ARG 1 ensimmäinen
+		ARG 2 toinen

@@ -1,0 +1,5 @@
+CLASS g simulator/SumuisestiSiirrettyOpenSimplexKohina
+	FIELD a siirtymäX D
+	FIELD b siirtymäY D
+	METHOD <init> (Ljava/util/Random;)V
+		ARG 1 satunnainen

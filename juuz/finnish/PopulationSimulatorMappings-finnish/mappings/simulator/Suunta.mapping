@@ -1,0 +1,14 @@
+CLASS d simulator/Suunta
+	FIELD a x I
+	FIELD a NOLLA Ld;
+	FIELD b y I
+	FIELD b YLÖS Ld;
+	FIELD c ALAS Ld;
+	FIELD d VASEMMALLE Ld;
+	FIELD e OIKEALLE Ld;
+	METHOD <init> (II)V
+		ARG 1 x
+		ARG 2 y
+	METHOD a haeX ()I
+	METHOD a käännä ()Ld;
+	METHOD b haeY ()I

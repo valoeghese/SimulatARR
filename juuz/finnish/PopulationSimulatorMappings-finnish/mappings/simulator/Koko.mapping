@@ -1,0 +1,9 @@
+CLASS simulator/b simulator/Koko
+	FIELD a leveys I
+	FIELD b korkeus I
+	METHOD a rajoitaSuhteella (DDD)D
+		COMMENT Kertoo x:n suhteella {@code osoittaja / nimittäjä} ja rajoittaa tuloksen
+		COMMENT 0.0:n ja {@code nimittäjä}n välille.
+		ARG 0 x
+		ARG 2 nimittäjä
+		ARG 4 osoittaja

@@ -1,0 +1,16 @@
+CLASS f simulator/util/PointEuclidianPlaneMutableCopiable
+	METHOD a clone ()Lf;
+	METHOD a setX (D)V
+		ARG 1 x
+	METHOD a offsetXYZ (DDD)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD a operate (IILf;)V
+		ARG 1 x
+		ARG 2 z
+		ARG 3 point
+	METHOD b setY (D)V
+		ARG 1 y
+	METHOD c setZ (D)V
+		ARG 1 z

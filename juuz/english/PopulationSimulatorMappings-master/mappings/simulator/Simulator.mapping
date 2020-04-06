@@ -1,0 +1,11 @@
+CLASS simulator/Simulator
+	FIELD a WORLD_DIAMETER I
+		COMMENT valo name
+	FIELD a RANDOM Ljava/util/Random;
+	FIELD a pixelWriter Ljavafx/scene/image/PixelWriter;
+	FIELD b width I
+	FIELD c height I
+	METHOD a tick ()V
+	METHOD b render ()V
+	METHOD main ([Ljava/lang/String;)V
+		ARG 0 args

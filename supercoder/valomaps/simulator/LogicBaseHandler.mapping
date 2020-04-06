@@ -1,0 +1,16 @@
+CLASS simulator/a simulator/LogicBaseHandler
+	FIELD a sizeHolder Lsimulator/b;
+	METHOD a startTimerHackThread (Ljava/lang/Runnable;)V
+		ARG 0 logic
+	METHOD a run (Ljava/lang/Runnable;J)V
+		ARG 0 logic
+	METHOD a performLogic (Ljavafx/scene/canvas/GraphicsContext;II)V
+		ARG 1 context
+		ARG 2 xSize
+		ARG 3 zSize
+	METHOD a handleMouseEvent (Ljavafx/scene/input/MouseEvent;)V
+		ARG 1 event
+	METHOD a handleWindowEvent (Ljavafx/stage/WindowEvent;)V
+		ARG 1 event
+	METHOD start (Ljavafx/stage/Stage;)V
+		ARG 1 simulationBase

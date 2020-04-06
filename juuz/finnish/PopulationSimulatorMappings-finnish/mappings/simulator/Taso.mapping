@@ -1,0 +1,17 @@
+CLASS j simulator/Taso
+	FIELD a POPULAATIOT Ljava/util/Map;
+		COMMENT Map<Long, List<Populaatio>>
+	FIELD b YMPÄRISTÖT Ljava/util/Map;
+		COMMENT Map<Long, Ympäristö>
+	METHOD <init> (Ljava/util/Random;I)V
+		ARG 1 satunnainen
+		ARG 2 koko
+	METHOD a haeYmpäristö (J)La;
+		ARG 0 sijainti
+	METHOD a haePopulaatiot (J)Ljava/util/List;
+		ARG 0 sijainti
+	METHOD a lisää (JLi;)V
+		ARG 0 sijainti
+		ARG 2 populaatio
+	METHOD a poista (Li;)V
+		ARG 0 populaatio

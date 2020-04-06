@@ -1,0 +1,5 @@
+CLASS g utils/AnotherNoiseGenerator
+	FIELD a x D
+	FIELD b y D
+	METHOD <init> (Ljava/util/Random;)V
+		ARG 1 rand

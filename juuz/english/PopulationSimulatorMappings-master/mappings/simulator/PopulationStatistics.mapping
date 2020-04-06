@@ -1,0 +1,16 @@
+CLASS e simulator/PopulationStatistics
+	COMMENT The statistics of a {@link Population}. All values are between -1 and 1.
+	FIELD a intelligence D
+	FIELD b build D
+	FIELD c strength D
+	METHOD <init> (DDD)V
+		ARG 1 intelligence
+		ARG 3 build
+		ARG 5 strength
+	METHOD a getIntelligence ()D
+	METHOD a distanceTo (Le;)D
+		COMMENT Calculates the distance to the other statistics, interpreting statistics
+		COMMENT as a 3D point ({@code intelligence}, {@code build}, {@code strength}).
+		ARG 1 other
+	METHOD b getBuild ()D
+	METHOD c getStrength ()D

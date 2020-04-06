@@ -1,0 +1,38 @@
+CLASS i simulator/PopulationSimulated
+	FIELD a xPos I
+	FIELD a packedPos J
+	FIELD a climateZone La;
+	FIELD a languageProps Lf;
+	FIELD a holder Lj;
+	FIELD a GLOBAL_POPULATIONS Ljava/util/List;
+	FIELD a finalized Z
+	FIELD b zPos I
+	FIELD b populationProps Lf;
+	FIELD b GLOBAL_POPULATION_GROUPS Ljava/util/List;
+	FIELD b isSettled Z
+	FIELD c popSize I
+	FIELD c GLOBAL_UNFINALIZED Ljava/util/List;
+	FIELD d GLOBAL_TO_DELETE Ljava/util/List;
+	METHOD <init> (Li;D)V
+		ARG 1 pop
+		ARG 2 popSizeModifier
+	METHOD <init> (Ljava/util/Random;)V
+		ARG 1 rand
+	METHOD a getSize ()D
+	METHOD a getRatioClampedSize ()I
+	METHOD a toPopArray ()[Li;
+	METHOD a isGreaterThanFourFifths (D)Z
+		ARG 0 value
+	METHOD a freezePosToLong (II)J
+		ARG 0 x
+		ARG 1 z
+	METHOD a removeAndPack (II)V
+		ARG 1 x
+		ARG 2 z
+	METHOD a finalizePopsAndAddToGrouping (Li;Li;)V
+		ARG 0 pop1
+		ARG 1 pop2
+	METHOD a simulate (Ljava/util/Random;)V
+	METHOD b setXZ (II)V
+		ARG 1 x
+		ARG 2 z

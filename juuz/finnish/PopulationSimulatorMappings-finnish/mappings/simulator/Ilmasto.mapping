@@ -1,0 +1,8 @@
+CLASS c simulator/Ilmasto
+	FIELD a lämpötila D
+	FIELD b kosteus D
+	METHOD <init> (DD)V
+		ARG 1 lämpötila
+		ARG 3 kosteus
+	METHOD a haeLämpötila ()D
+	METHOD b hasKosteus ()D

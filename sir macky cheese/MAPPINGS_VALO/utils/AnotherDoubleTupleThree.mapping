@@ -1,0 +1,16 @@
+CLASS f utils/AnotherDoubleTupleThree
+	METHOD a cloneThisAnotherDoubleTupleThree ()Lf;
+	METHOD a first (D)V
+		ARG 1 first
+	METHOD a add (DDD)V
+		ARG 1 first
+		ARG 3 second
+		ARG 5 third
+	METHOD a someComplexOperationUponTwoIntegersAndAnotherAnotherDoubleTupleThree (IILf;)V
+		ARG 1 input1
+		ARG 2 input2
+		ARG 3 other
+	METHOD b second (D)V
+		ARG 1 second
+	METHOD c third (D)V
+		ARG 1 third

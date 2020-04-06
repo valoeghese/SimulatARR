@@ -1,0 +1,39 @@
+CLASS i sim/Agent
+	FIELD a x I
+	FIELD a hashedCoordinate J
+	FIELD a biome La;
+	FIELD a language Lf;
+	FIELD a biomeMap Lj;
+	FIELD a agents Ljava/util/List;
+	FIELD a married Z
+	FIELD b y I
+	FIELD b stats Lf;
+	FIELD b agentPairs Ljava/util/List;
+	FIELD b settled Z
+	FIELD c size I
+	FIELD c agentsToAdd Ljava/util/List;
+	FIELD d agentsToRemove Ljava/util/List;
+	METHOD <init> (Li;D)V
+		ARG 1 parent1
+		ARG 2 parent2
+	METHOD <init> (Ljava/util/Random;)V
+		ARG 1 rand
+	METHOD a strengthTimesSize ()D
+	METHOD a complicatedFunctionWhichReturnsAnInteger ()I
+	METHOD a agentList ()[Li;
+	METHOD a meetsThreshold (D)Z
+		ARG 0 value
+	METHOD a hashCoordinate (II)J
+		ARG 0 x
+		ARG 1 y
+	METHOD a moveTo (II)V
+		ARG 1 x
+		ARG 2 y
+	METHOD a putPair (Li;Li;)V
+		ARG 0 parent1
+		ARG 1 parent2
+	METHOD a update (Ljava/util/Random;)V
+		ARG 0 rand
+	METHOD b setCoordinates (II)V
+		ARG 1 x
+		ARG 2 y

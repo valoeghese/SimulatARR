@@ -1,0 +1,9 @@
+CLASS simulator/b simulator/Dimension
+	FIELD a width I
+	FIELD b height I
+	METHOD a ratioClamp (DDD)D
+		COMMENT Multiplies x by the ratio {@code numerator / denominator} and clamps the result between
+		COMMENT 0.0 and the {@code numerator}.
+		ARG 0 x
+		ARG 2 denominator
+		ARG 4 numerator

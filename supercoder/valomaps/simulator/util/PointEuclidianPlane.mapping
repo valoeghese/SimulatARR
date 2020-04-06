@@ -1,0 +1,13 @@
+CLASS e simulator/util/PointEuclidianPlane
+	FIELD a x D
+	FIELD b y D
+	FIELD c z D
+	METHOD <init> (DDD)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD a getX ()D
+	METHOD a distanceFrom (Le;)D
+		ARG 1 point
+	METHOD b getY ()D
+	METHOD c getZ ()D

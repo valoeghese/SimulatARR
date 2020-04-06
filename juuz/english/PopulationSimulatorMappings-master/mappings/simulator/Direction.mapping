@@ -1,0 +1,14 @@
+CLASS d simulator/Direction
+	FIELD a x I
+	FIELD a ZERO Ld;
+	FIELD b y I
+	FIELD b UP Ld;
+	FIELD c DOWN Ld;
+	FIELD d LEFT Ld;
+	FIELD e RIGHT Ld;
+	METHOD <init> (II)V
+		ARG 1 x
+		ARG 2 y
+	METHOD a getX ()I
+	METHOD a invert ()Ld;
+	METHOD b getY ()I

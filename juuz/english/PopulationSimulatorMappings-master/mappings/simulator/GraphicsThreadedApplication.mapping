@@ -1,0 +1,18 @@
+CLASS simulator/a simulator/GraphicsThreadedApplication
+	COMMENT Why does this class exist?
+	FIELD a dimension Lsimulator/b;
+	METHOD a startLoopThread (Ljava/lang/Runnable;)V
+		ARG 0 task
+	METHOD a loop (Ljava/lang/Runnable;J)V
+		ARG 0 task
+		ARG 1 pauseTime
+	METHOD a init (Ljavafx/scene/canvas/GraphicsContext;II)V
+		ARG 1 context
+		ARG 2 width
+		ARG 3 height
+	METHOD a mouseClicked (Ljavafx/scene/input/MouseEvent;)V
+		ARG 1 event
+	METHOD a windowClosed (Ljavafx/stage/WindowEvent;)V
+		ARG 1 event
+	METHOD start (Ljavafx/stage/Stage;)V
+		ARG 1 stage

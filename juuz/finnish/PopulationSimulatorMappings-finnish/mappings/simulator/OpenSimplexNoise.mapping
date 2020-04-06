@@ -1,0 +1,17 @@
+CLASS h simulator/OpenSimplexNoise
+	FIELD a gradients2D [B
+	FIELD a perm [S
+	FIELD b gradients3D [B
+	FIELD b permGradIndex3D [S
+	METHOD <init> (J)V
+		ARG 1 seed
+	METHOD a fastFloor (D)I
+		ARG 0 x
+	METHOD a eval (DD)D
+		ARG 1 x
+		ARG 3 y
+	METHOD a extrapolate (IIDD)D
+		ARG 1 xsb
+		ARG 2 ysb
+		ARG 3 dx
+		ARG 5 dy

@@ -1,0 +1,5 @@
+CLASS g simulator/FuzzyOffsetOpenSimplexNoise
+	FIELD a offsetX D
+	FIELD b offsetY D
+	METHOD <init> (Ljava/util/Random;)V
+		ARG 1 random

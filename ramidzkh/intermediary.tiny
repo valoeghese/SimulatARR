@@ -1,0 +1,123 @@
+v1	official	intermediary
+CLASS	a	simulator/class_1
+FIELD	a	La;	a	field_1
+FIELD	a	Lc;	a	field_2
+FIELD	a	Le;	a	field_3
+FIELD	a	Ljava/lang/String;	a	field_4
+FIELD	a	Z	a	field_5
+FIELD	a	La;	b	field_6
+FIELD	a	La;	c	field_7
+FIELD	a	La;	d	field_8
+FIELD	a	La;	e	field_9
+FIELD	a	La;	f	field_10
+METHOD	a	()Lc;	a	method_1
+METHOD	a	()Z	a	method_2
+METHOD	a	(Lf;)V	a	method_3
+METHOD	a	()Ljava/lang/String;	toString	toString
+CLASS	b	simulator/class_2
+FIELD	b	Ljava/lang/Object;	a	field_11
+FIELD	b	Ljava/lang/Object;	b	field_12
+CLASS	c	simulator/class_3
+FIELD	c	D	a	field_13
+FIELD	c	D	b	field_14
+METHOD	c	()D	a	method_4
+METHOD	c	()D	b	method_5
+CLASS	d	simulator/class_4
+FIELD	d	I	a	field_15
+FIELD	d	Ld;	a	field_16
+FIELD	d	I	b	field_17
+FIELD	d	Ld;	b	field_18
+FIELD	d	Ld;	c	field_19
+FIELD	d	Ld;	d	field_20
+FIELD	d	Ld;	e	field_21
+METHOD	d	()I	a	method_6
+METHOD	d	()Ld;	a	method_7
+METHOD	d	()I	b	method_8
+CLASS	e	simulator/class_5
+FIELD	e	D	a	field_22
+FIELD	e	D	b	field_23
+FIELD	e	D	c	field_24
+METHOD	e	()D	a	method_9
+METHOD	e	(Le;)D	a	method_10
+METHOD	e	()D	b	method_11
+METHOD	e	()D	c	method_12
+CLASS	f	simulator/class_6
+METHOD	f	()Lf;	a	method_13
+METHOD	f	(D)V	a	method_14
+METHOD	f	(DDD)V	a	method_15
+METHOD	f	(IILf;)V	a	method_16
+METHOD	f	(D)V	b	method_17
+METHOD	f	(D)V	c	method_18
+METHOD	f	()Ljava/lang/Object;	clone	clone
+CLASS	g	simulator/class_7
+FIELD	g	D	a	field_25
+FIELD	g	D	b	field_26
+CLASS	h	simulator/class_8
+FIELD	h	[B	a	field_27
+FIELD	h	[S	a	field_28
+FIELD	h	[B	b	field_29
+FIELD	h	[S	b	field_30
+METHOD	h	(D)I	a	method_19
+METHOD	h	(DD)D	a	method_20
+METHOD	h	(IIDD)D	a	method_21
+CLASS	i	simulator/class_9
+FIELD	i	I	a	field_31
+FIELD	i	J	a	field_32
+FIELD	i	La;	a	field_33
+FIELD	i	Lf;	a	field_34
+FIELD	i	Lj;	a	field_35
+FIELD	i	Ljava/util/List;	a	field_36
+FIELD	i	Z	a	field_37
+FIELD	i	I	b	field_38
+FIELD	i	Lf;	b	field_39
+FIELD	i	Ljava/util/List;	b	field_40
+FIELD	i	Z	b	field_41
+FIELD	i	I	c	field_42
+FIELD	i	Ljava/util/List;	c	field_43
+FIELD	i	Ljava/util/List;	d	field_44
+METHOD	i	()D	a	method_22
+METHOD	i	()I	a	method_23
+METHOD	i	()[Li;	a	method_24
+METHOD	i	(D)Z	a	method_25
+METHOD	i	(II)J	a	method_26
+METHOD	i	(II)V	a	method_27
+METHOD	i	(Lb;)V	a	method_28
+METHOD	i	(Li;)V	a	method_29
+METHOD	i	(Li;Li;)V	a	method_30
+METHOD	i	(Ljava/util/Random;)V	a	method_31
+METHOD	i	(Ljava/util/Random;Li;)V	a	method_32
+METHOD	i	(II)V	b	method_33
+METHOD	i	(Ljava/util/Random;Li;)V	b	method_34
+METHOD	i	()Ljava/lang/String;	toString	toString
+CLASS	j	simulator/class_10
+FIELD	j	Ljava/util/Map;	a	field_45
+FIELD	j	Ljava/util/Map;	b	field_46
+METHOD	j	(J)La;	a	method_35
+METHOD	j	(J)Ljava/util/List;	a	method_36
+METHOD	j	(JLi;)V	a	method_37
+METHOD	j	(Li;)V	a	method_38
+METHOD	j	(Ljava/lang/Long;)Ljava/util/List;	a	method_39
+CLASS	simulator/Simulator	simulator/Simulator
+FIELD	simulator/Simulator	I	a	field_47
+FIELD	simulator/Simulator	Ljava/util/Random;	a	field_48
+FIELD	simulator/Simulator	Ljavafx/scene/image/PixelWriter;	a	field_49
+FIELD	simulator/Simulator	I	b	field_50
+FIELD	simulator/Simulator	I	c	field_51
+METHOD	simulator/Simulator	()V	a	method_40
+METHOD	simulator/Simulator	()V	b	method_41
+METHOD	simulator/Simulator	([Ljava/lang/String;)V	main	main
+CLASS	simulator/a	simulator/a
+FIELD	simulator/a	Lsimulator/b;	a	field_52
+METHOD	simulator/a	(Ljava/lang/Runnable;)V	a	method_42
+METHOD	simulator/a	(Ljava/lang/Runnable;J)V	a	method_43
+METHOD	simulator/a	(Ljavafx/scene/canvas/GraphicsContext;II)V	a	method_44
+METHOD	simulator/a	(Ljavafx/scene/input/MouseEvent;)V	a	method_45
+METHOD	simulator/a	(Ljavafx/stage/WindowEvent;)V	a	method_46
+METHOD	simulator/a	(Ljavafx/stage/Stage;)V	start	start
+CLASS	simulator/b	simulator/b
+FIELD	simulator/b	I	a	field_53
+FIELD	simulator/b	I	b	field_54
+METHOD	simulator/b	(DDD)D	a	method_47
+# INTERMEDIARY-COUNTER field 55
+# INTERMEDIARY-COUNTER method 48
+# INTERMEDIARY-COUNTER class 11

@@ -1,0 +1,15 @@
+CLASS j sim/Grid
+	FIELD a agents Ljava/util/Map;
+	FIELD b biomes Ljava/util/Map;
+	METHOD <init> (Ljava/util/Random;I)V
+		ARG 1 rand
+		ARG 2 size
+	METHOD a getBiome (J)La;
+		ARG 0 hashedCoordinate
+	METHOD a getAgents (J)Ljava/util/List;
+		ARG 0 hashedCoordinate
+	METHOD a addAgent (JLi;)V
+		ARG 0 hashedCoordinate
+		ARG 2 agent
+	METHOD a removeAgent (Li;)V
+		ARG 0 agent

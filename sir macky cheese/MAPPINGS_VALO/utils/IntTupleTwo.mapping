@@ -1,0 +1,14 @@
+CLASS d utils/IntTupleTwo
+	FIELD a first I
+	FIELD a ZERO Ld;
+	FIELD b second I
+	FIELD b YPL Ld;
+	FIELD c YMI Ld;
+	FIELD d XMI Ld;
+	FIELD e XPL Ld;
+	METHOD <init> (II)V
+		ARG 1 first
+		ARG 2 second
+	METHOD a first ()I
+	METHOD a negateBothComponents ()Ld;
+	METHOD b second ()I

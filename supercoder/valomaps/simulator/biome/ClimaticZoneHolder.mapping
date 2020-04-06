@@ -1,0 +1,17 @@
+CLASS j simulator/biome/ClimaticZoneHolder
+	FIELD a POPULATIONS Ljava/util/Map;
+	FIELD b BASE_CLIMATIC_ZONE_MAPPING Ljava/util/Map;
+	METHOD <init> (Ljava/util/Random;I)V
+		ARG 1 rand
+		ARG 2 radius
+	METHOD a getClimaticZone (J)La;
+		ARG 0 packedPos
+	METHOD a get (J)Ljava/util/List;
+		ARG 0 packedPos
+	METHOD a add (JLi;)V
+		ARG 0 packedPos
+		ARG 2 pop
+	METHOD a remove (Li;)V
+		ARG 0 pop
+	METHOD a (Ljava/lang/Long;)Ljava/util/List;
+		ARG 0 value

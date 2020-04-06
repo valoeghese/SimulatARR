@@ -1,0 +1,5 @@
+CLASS g simulator/noise/XZOffsetOpenSimplexNoiseSampler
+	FIELD a fuzzyOffsetXModifier D
+	FIELD b fuzzyOffsetZModifier D
+	METHOD <init> (Ljava/util/Random;)V
+		ARG 1 rand

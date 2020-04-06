@@ -1,0 +1,6 @@
+CLASS b simulator/util/ImmutableObjectGrouping
+	FIELD a o1 Ljava/lang/Object;
+	FIELD b o2 Ljava/lang/Object;
+	METHOD <init> (Ljava/lang/Object;Ljava/lang/Object;)V
+		ARG 1 o1
+		ARG 2 o2

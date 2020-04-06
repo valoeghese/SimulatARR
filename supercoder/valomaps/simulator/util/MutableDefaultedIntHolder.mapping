@@ -1,0 +1,7 @@
+CLASS simulator/b simulator/util/MutableDefaultedIntHolder
+	FIELD a int1 I
+	FIELD b int2 I
+	METHOD a zeroBasedRatioClamp (DDD)D
+		ARG 0 x
+		ARG 2 y
+		ARG 4 z

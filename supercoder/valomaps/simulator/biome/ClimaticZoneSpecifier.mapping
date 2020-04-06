@@ -1,0 +1,20 @@
+CLASS a simulator/biome/ClimaticZoneSpecifier
+	FIELD a ZONE_GRASSLANDS La;
+	FIELD a grouping Lc;
+	FIELD a point Le;
+	FIELD a id Ljava/lang/String;
+	FIELD a suitableForVegetation Z
+	FIELD b ZONE_FOREST La;
+	FIELD c ZONE_RAIN_FOREST La;
+	FIELD d ZONE_SAVANNAH La;
+	FIELD e ZONE_DESERT La;
+	FIELD f ZONE_DESERT_COLD La;
+	METHOD <init> (Ljava/lang/String;Lc;Le;Z)V
+		ARG 1 id
+		ARG 2 grouping
+		ARG 3 point
+		ARG 4 suitableForVegetation
+	METHOD a getGrouping ()Lc;
+	METHOD a isSuitableForVegetation ()Z
+	METHOD a offset (Lf;)V
+		ARG 1 point
